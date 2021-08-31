@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaddb35e-501d-412c-bbac-2fd01b3d3611" name="Default Changelist" comment="" />
+    <list default="true" id="aaddb35e-501d-412c-bbac-2fd01b3d3611" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/raft/raft.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/raft/raft.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,22 +41,75 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <environment>
+      <map>
+        <entry key="GOPROXY" value="https://goproxy.cn" />
+      </map>
+    </environment>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="369" y="42" key="SettingsEditor" timestamp="1622196261829">
+    <state x="515" y="284" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1622279674772">
+      <screen x="0" y="0" width="1920" height="1006" />
+    </state>
+    <state x="515" y="284" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1006/0.0.1920.1006@0.0.1920.1006" timestamp="1622279674772" />
+    <state x="100" y="100" width="1720" height="809" key="DiffContextDialog" timestamp="1622199638373">
       <screen x="0" y="0" width="1920" height="999" />
     </state>
-    <state x="369" y="42" key="SettingsEditor/0.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1622196261829" />
+    <state x="100" y="100" width="1720" height="809" key="DiffContextDialog/0.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1622199638373" />
+    <state x="782" y="380" key="Github.ShareDialog" timestamp="1622216704672">
+      <screen x="0" y="0" width="1920" height="1006" />
+    </state>
+    <state x="782" y="380" key="Github.ShareDialog/0.0.1920.1006/0.0.1920.1006@0.0.1920.1006" timestamp="1622216704672" />
+    <state x="369" y="42" width="1181" height="915" key="SettingsEditor" timestamp="1622280402957">
+      <screen x="0" y="0" width="1920" height="1006" />
+    </state>
+    <state x="369" y="42" width="1181" height="915" key="SettingsEditor/0.0.1920.1006/0.0.1920.1006@0.0.1920.1006" timestamp="1622280402957" />
+    <state x="369" y="42" key="SettingsEditor/0.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1622203411733" />
+    <state x="460" y="172" key="Vcs.Push.Dialog.v2" timestamp="1622199507871">
+      <screen x="0" y="0" width="1920" height="999" />
+    </state>
+    <state x="460" y="172" key="Vcs.Push.Dialog.v2/0.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1622199507871" />
+    <state x="665" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1622279492292">
+      <screen x="0" y="0" width="1920" height="1006" />
+    </state>
+    <state x="665" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1006/0.0.1920.1006@0.0.1920.1006" timestamp="1622279492292" />
+    <state x="616" y="384" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1622216526057">
+      <screen x="0" y="0" width="1920" height="1006" />
+    </state>
+    <state x="616" y="384" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1006/0.0.1920.1006@0.0.1920.1006" timestamp="1622216526057" />
   </component>
 </project>
