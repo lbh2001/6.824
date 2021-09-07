@@ -19,9 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaddb35e-501d-412c-bbac-2fd01b3d3611" name="Default Changelist" comment="updated some types">
+    <list default="true" id="aaddb35e-501d-412c-bbac-2fd01b3d3611" name="Default Changelist" comment="updated AE and Election">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/diskvd.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/lockc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/lockd.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/mrsequential.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/mrworker.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/pbc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/pbd.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/viewd.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/raft/raft.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/raft/raft.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/raft/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/raft/util.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +59,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mq" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../6.824-2020" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -72,7 +81,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
     <MESSAGE value="updated some types" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated some types" />
+    <MESSAGE value="updated AE and Election" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated AE and Election" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -86,38 +96,15 @@
     <state x="515" y="279" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1630825808555">
       <screen x="0" y="0" width="1920" height="990" />
     </state>
-    <state x="515" y="284" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1006/0.0.1920.1006@0.0.1920.1006" timestamp="1622279674772" />
     <state x="515" y="279" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.990/0.0.1920.990@0.0.1920.990" timestamp="1630825808555" />
-    <state x="100" y="100" width="1720" height="809" key="DiffContextDialog" timestamp="1622199638373">
-      <screen x="0" y="0" width="1920" height="999" />
-    </state>
-    <state x="100" y="100" width="1720" height="809" key="DiffContextDialog/0.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1622199638373" />
-    <state x="676" y="202" key="FileChooserDialogImpl" timestamp="1630465711991">
+    <state x="676" y="202" key="FileChooserDialogImpl" timestamp="1631004305659">
       <screen x="0" y="0" width="1920" height="1002" />
     </state>
-    <state x="676" y="202" key="FileChooserDialogImpl/0.0.1920.1002/0.0.1920.1002@0.0.1920.1002" timestamp="1630465711991" />
-    <state x="782" y="380" key="Github.ShareDialog" timestamp="1622216704672">
-      <screen x="0" y="0" width="1920" height="1006" />
-    </state>
-    <state x="782" y="380" key="Github.ShareDialog/0.0.1920.1006/0.0.1920.1006@0.0.1920.1006" timestamp="1622216704672" />
-    <state x="369" y="42" width="1181" height="915" key="SettingsEditor" timestamp="1622280402957">
-      <screen x="0" y="0" width="1920" height="1006" />
-    </state>
-    <state x="369" y="42" width="1181" height="915" key="SettingsEditor/0.0.1920.1006/0.0.1920.1006@0.0.1920.1006" timestamp="1622280402957" />
-    <state x="369" y="42" key="SettingsEditor/0.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1622203411733" />
-    <state x="460" y="173" key="Vcs.Push.Dialog.v2" timestamp="1630419043750">
+    <state x="676" y="202" key="FileChooserDialogImpl/0.0.1920.1002/0.0.1920.1002@0.0.1920.1002" timestamp="1631004305659" />
+    <state x="460" y="173" key="Vcs.Push.Dialog.v2" timestamp="1630932718050">
       <screen x="0" y="0" width="1920" height="1002" />
     </state>
-    <state x="460" y="173" key="Vcs.Push.Dialog.v2/0.0.1920.1002/0.0.1920.1002@0.0.1920.1002" timestamp="1630419043750" />
-    <state x="460" y="172" key="Vcs.Push.Dialog.v2/0.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1622199507871" />
-    <state x="665" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1622279492292">
-      <screen x="0" y="0" width="1920" height="1006" />
-    </state>
-    <state x="665" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1006/0.0.1920.1006@0.0.1920.1006" timestamp="1622279492292" />
-    <state x="616" y="384" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1622216526057">
-      <screen x="0" y="0" width="1920" height="1006" />
-    </state>
-    <state x="616" y="384" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1006/0.0.1920.1006@0.0.1920.1006" timestamp="1622216526057" />
+    <state x="460" y="173" key="Vcs.Push.Dialog.v2/0.0.1920.1002/0.0.1920.1002@0.0.1920.1002" timestamp="1630932718050" />
     <state x="527" y="-1" width="854" height="1034" key="search.everywhere.popup" timestamp="1630465691417">
       <screen x="0" y="0" width="1920" height="1002" />
     </state>
